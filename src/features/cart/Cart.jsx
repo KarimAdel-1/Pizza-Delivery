@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import LinkButton from '../../ui/LinkButton';
 import Button from '../../ui/Button';
 import CartItem from './CartItem';
@@ -29,7 +28,7 @@ const fakeCart = [
 ];
 
 function Cart() {
-  const {username} = useSelector(state => state.user)
+  const { username } = useSelector((state) => state.user);
 
   const cart = fakeCart;
 
