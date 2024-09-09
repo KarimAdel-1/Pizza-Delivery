@@ -1,5 +1,6 @@
-import { formatCurrency } from '../../utilities/helpers';
 import Button from '../../ui/Button';
+import { formatCurrency } from '../../utils/helpers';
+
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
@@ -24,7 +25,7 @@ function MenuItem({ pizza }) {
             </p>
           )}
 
-          <Button type="small">add to cart</Button>
+          <Button type="small">Add to cart</Button>
         </div>
       </div>
     </li>
